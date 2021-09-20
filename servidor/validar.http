@@ -1,0 +1,26 @@
+
+### mas_reciente GET
+GET http://127.0.0.1:5000/mas_recientes
+
+### mas_reciente POST
+POST http://127.0.0.1:5000/mas_recientes
+Content-Type: application/json
+
+{
+    "codigo":"ZPRC004",
+    "nombre":"Zapatos paso de fruta",
+    "precio":420000,
+    "marca":"Cuero Velez"
+}
+
+### mas_reciente PUT
+PUT http://127.0.0.1:5000/mas_recientes
+Content-Type: application/json
+
+{
+    "codigo":"ZPRC004",
+    "nombre":"Zapatos paso de fruta",
+    "precio":120000,
+    "marca":"marca"
+
+}
